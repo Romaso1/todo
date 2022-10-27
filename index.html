@@ -1,0 +1,42 @@
+<DOCTYPE html!>
+
+    <head>
+        <title>Todo list</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "Stylesheet" href = "css/todo.css">
+        <link rel = "shortcut icon" href="assets/favicon.ico">
+        <link rel="icon" type="image/gif" href="assests/animated_favicon1.gif" >
+     </head>
+
+    <body>
+
+        <div id = "todo">
+            <h1> Туду ліст <i id="pencil" class="fas fa-pencil-alt"></i> </h1>
+
+            <input type = "text" placeholder="Добавити новий туду">
+
+            <ul class="todos">
+                
+                <li><span><i class="fas fa-trash-alt"></i></span>Написати код</li>
+            </ul>
+
+            <div id= "buttons">
+                <button class="save">Сейв</button>
+                <button class="clear">Клір</button>
+                <button class="tipBtn">Хелп</button>
+            </div>
+        </div>
+
+        <div id = "overlay">
+           <a href="javascript:void(0)" class="closebtn">&times;</a>
+           <ul class="tips">
+               <li>Нажміть на олівець щоб заховати інпут</li>
+               <li>Напишіть текст в інпут і нажміть Enter щоб добавити ліст</li>
+               <li>Щоб видалити наведіть на пункт і нажміть на смітник</li>
+               <li>Нажміть кнопку клір щоб видалити пункт</li>
+               <li>Нажміть сейв щоб зберегти свій ліст</li>
+            </ul>
+            
+        </div>
+        <script src="Js/todo2.js"></script>
+    </body>
